@@ -2,7 +2,7 @@
 
 .pnp
 .pnp.js
-.evn.local
+.env.local
 .env.*.local
 .history
 .rts*
@@ -35,8 +35,6 @@ output_resource/
 .idea/
 
 **/*/typings/auto-generated
-**/*/adapters/**/index.ts
-**/*/adapters/**/index.js
 
 .changeset/pre.json
 
