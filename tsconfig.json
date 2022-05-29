@@ -1,13 +1,15 @@
 {
   "extends": "@modern-js/tsconfig/base",
   "compilerOptions": {
+    "allowJs": true,
     "declaration": false,
     "jsx": "preserve",
     "baseUrl": "./",
     "paths": {
       "@/*": ["./src/*"],
       "@shared/*": ["./shared/*"]
-    }
+    },
+    "types": ["node", "jest", "./typings"]
   },
   "include": ["src", "shared", "config", "modern.config.ts"]
 }

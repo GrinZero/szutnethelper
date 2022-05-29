@@ -10,3 +10,5 @@ pnpm run dev
 ```
 
 可以通过command+options+I或者Ctrl+Shit+I打开调试器
+
+command+R强制刷新
